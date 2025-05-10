@@ -1,0 +1,30 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    color: #2e2e2e;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#flipdown {
+    margin: 20px auto;
+}
+
+.header-text {
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+}
+
+.image-replacement {
+    margin-top: 40px;
+}
+
+.replacement-image {
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+}

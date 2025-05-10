@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Свадьба </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flipdown@0.3.2/dist/flipdown.min.css">
+</head>
+<body>
+
+    <!-- Первая картинка -->
+    <header>
+        <img src="images/header-text.png" alt="Приглашение на свадьбу" class="header-text">
+    </header>
+
+    <!-- Таймер -->
+    <div id="flipdown" class="flipdown"></div>
+
+    <!-- Вторая картинка -->
+    <section class="image-replacement">
+        <img src="images/second-image.png" alt="Текст заменён на картинку" class="replacement-image">
+    </section>
+
+    <!-- Третья картинка -->
+    <section class="image-replacement">
+        <img src="images/third-image.png" alt="Дополнительная картинка" class="replacement-image">
+    </section>
+
+    <!-- Google Форма -->
+    <section class="form-section">
+        <h2>Пожалуйста, подтвердите своё участие</h2>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSewpdpXeEm8B3BCYalF-IyuH2abLQ59Iz5-tS8QUrRQL8pFCQ/viewform?embedded=true" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
+    </section>
+
+    <script src="https://unpkg.com/flipdown@0.3.2/dist/flipdown.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
